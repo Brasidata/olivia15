@@ -1,0 +1,25 @@
+@prefix : <http://brasidata.com/obdc/ct/office/profile/payload/triples/nid.ttl#> .
+# @prefix owl: <http://www.w3.org/2002/07/owl#> .
+# @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+# @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+# @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+# @prefix prov: <http://www.w3.org/ns/prov#> .
+# @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# @prefix schema: <http://schema.org/> .
+# @prefix dcterms: <http://purl.org/dc/terms/> .
+# @prefix dataset: <http://brasidatacenter.com/domain/social/ds/country/dataset.ttl#> .
+# @base <http://ontobdc.org/ontology/social/ds/country/payload/triples/nid.rdf#> .
+
+# <http://brasidatacenter.com/domain/social/ds/country/payload/triples/nid.ttl> rdf:type owl:Ontology ;
+#                                                                                owl:versionIRI <http://brasidatacenter.com/domain/social/ds/country/payload/triples/nid.ttl/1.0.0> .
+
+
+###  http://datacenter.app.br/domain/social/nid/organization.ttl#Brasidata
+:Brasidata rdf:type owl:NamedIndividual ,
+        #             foaf:Organization ;
+        #    schema:areaServed "Mundial"@pt-br ,
+        #                      "Worldwide"@en ;
+        #    schema:name "BRASIDATA CONSULTORIA EM ENGENHARIA E TECNOLOGIA" ;
+        #    skos:altLabel "BRASIDATA ENGENHARIA"@pt-br ,
+        #                  "BRASIDATA ENGINEERING"@en ;
+        #    rov:legalName "BRASIDATA CONSULTORIA EM ENGENHARIA, TECNOLOGIA, TREINAMENTO E DESENVOLVIMENTO DE SOFTWARE LTDA - ME" .
