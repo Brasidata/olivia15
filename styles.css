@@ -227,3 +227,11 @@
 .nome-local-complemento { white-space: nowrap; }
 .pagina-localizacao .cartao-localizacao { padding: 5cqw; }
 .pagina-localizacao .horario-localizacao { margin: 0 0 5cqw; }
+
+/* Clickable wordmark keeps the original responsive dimensions. */
+a.nome { display: block; aspect-ratio: 2 / 1; }
+a.nome img { display: block; width: 100%; height: 100%; object-fit: contain; }
+a.nome:focus-visible { outline: 2px solid #edf2fa; outline-offset: 6px; border-radius: 4px; }
+
+.trajes-separados .traje { grid-template-columns: 19cqw minmax(0, 1fr); }
+.trajes-separados .ilustracao-traje { width: 19cqw; }
